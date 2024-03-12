@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [ParallelTestSuite]" parallel="tests">
+  <test name="Test1">
+    <classes>
+      <class name="entrata.TestCases.WatchDemo"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <classes>
+      <class name="entrata.TestCases.SignIn"/>
+    </classes>
+  </test> <!-- Test2 -->
+</suite> <!-- Failed suite [ParallelTestSuite] -->
